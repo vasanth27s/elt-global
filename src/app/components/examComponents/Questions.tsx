@@ -67,7 +67,7 @@ const Questions = () => {
   };
 
   const next = () => {
-    if (qno !== 30) {
+    if (qno !== 20) {
       setQno(qno + 1);
     }
   };
