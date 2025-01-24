@@ -2,10 +2,10 @@
 
 import type { Metadata } from "next";
 import "./globals.css";
-import Sidebar from "./_components/Sidebar";
-import Navbar from "./_components/Navbar";
+import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 import { Outfit } from "next/font/google";
-import { AppProvider } from "./_utils/AppContext";
+import { AppProvider } from "./utils/AppContext";
 
 
 

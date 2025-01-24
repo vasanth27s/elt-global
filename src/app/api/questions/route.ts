@@ -1,4 +1,4 @@
-import { getQuestions } from "../../_data/questions";
+import { getQuestions } from "../../data/questions";
 import { NextResponse } from "next/server";
 
 export async function GET(){

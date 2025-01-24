@@ -2,7 +2,7 @@
 
 
 import React, { useEffect, useState } from 'react'
-import { useAppContext } from '@/app/_utils/AppContext'
+import { useAppContext } from '@/app/utils/AppContext'
 import NumberSkeleton from '../skeleton/NumberSkeleton'
 
 const QuestionNumber = () => {

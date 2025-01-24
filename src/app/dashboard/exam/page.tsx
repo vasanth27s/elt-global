@@ -1,10 +1,10 @@
 "use client"
 
 import React from 'react'
-import QuestionNumber from '@/app/_components/examComponents/QuestionNumber'
-import Questions from '../../_components/examComponents/Questions'
-import { useAppContext } from '@/app/_utils/AppContext'
-import SubmitModal from '@/app/_components/modals/submitModal'
+import QuestionNumber from '@/app/components/examComponents/QuestionNumber'
+import Questions from '../../components/examComponents/Questions'
+import { useAppContext } from '@/app/utils/AppContext'
+import SubmitModal from '@/app/components/modals/submitModal'
 
 const Page = () => {
    const {modal} = useAppContext()

@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
-import { useAppContext } from '@/app/_utils/AppContext';
+import { useAppContext } from '@/app/utils/AppContext';
 import Timer from './helperComponents/Timer';
 import { ChevronLeft } from 'lucide-react'
 import { ChevronRight } from 'lucide-react';
